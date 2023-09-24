@@ -1,0 +1,4 @@
+# MME
+
+
+{"_id":"Test","startUrl":["https://www.contactcars.com/en/usedcars?page=1&sortOrder=false&sortBy=createdAt"],"selectors":[{"id":"Cars","parentSelectors":["_root"],"type":"SelectorElementClick","clickActionType":"real","clickElementSelector":"[aria-label='Next page'] div","clickElementUniquenessType":"uniqueText","clickType":"clickMore","delay":5000,"discardInitialElements":"do-not-discard","multiple":true,"selector":"div.md\\:w-1\\/2"},{"id":"Items links","parentSelectors":["Cars"],"type":"SelectorLink","selector":"a","multiple":true,"linkType":"linkFromHref"},{"id":"Brand","parentSelectors":["Items links"],"type":"SelectorText","selector":"span.whitespace-break-spaces:nth-of-type(1)","multiple":false,"regex":""},{"id":"Price","parentSelectors":["Items links"],"type":"SelectorText","selector":"div.bg-brand-50","multiple":false,"regex":""}]}
